@@ -1,0 +1,14 @@
+
+<h1> <%= @product.name %></h1>
+<table class="table table-striped">
+    <tr>
+        <th>Name</th>
+        <th>Price</th>
+    </tr>
+        <tbody>
+            <tr>
+                <td><%= @product.name %> </td>
+                <td>$<%= @product.price.round(2) %></td>
+           </tr>
+        </tbody>
+  </table>
